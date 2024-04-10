@@ -1,66 +1,39 @@
-## Foundry
+# Tant Token Contract
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## Overview
 
-Foundry consists of:
+This is the smart contract for the Tant token, which includes initial reserves and specific addresses for various purposes.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Token Details
 
-## Documentation
+- Token Name: Tant Finance
+- Token Symbol: Tant
+- Total Supply: 1,255,000,000 Tant
 
-https://book.getfoundry.sh/
+## Reserves Allocation
 
-## Usage
+- Presale Reserve: 40%
+- LP Reserve: 15%
+- Ecosystem Reserve: 20%
+- Cashback Reserve: 5%
+- Marketing Reserve: 10%
+- Team Reserve: 5%
+- Partners Reserve: 2%
+- Incentive Reserve: 3%
 
-### Build
+## Addresses
 
-```shell
-$ forge build
-```
+1. Presale Address
+2. LP Address
+3. Ecosystem Address
+4. Cashback Address
+5. Marketing Address
+6. Team Address
+7. Partners Address
+8. Incentive Address
 
-### Test
+## Deployment
 
-```shell
-$ forge test
-```
+The contract deploys with the specified reserves allocated to the respective addresses upon deployment.
 
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+Feel free to reach out if you have any questions or need further clarification.
